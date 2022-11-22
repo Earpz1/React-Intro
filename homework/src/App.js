@@ -9,10 +9,11 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          <ButtonComponent content="This is my Button" />
+          <ButtonComponent CssClass="button" content="This is my Button" />
         </p>
         <p>
           <ImageComponent
+            CssClass="image"
             image="https://placekitten.com/640/360"
             altText="This is a cat"
           />
